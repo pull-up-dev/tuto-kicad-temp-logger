@@ -1,0 +1,133 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "46f6f3f4-3d30-4d83-91be-742ee6806614")
+	(paper "A4")
+	(title_block
+		(title "${project_name} - Main")
+		(date "2024-07-07")
+		(rev "v${pcb_version_major}.${pcb_version_minor}")
+		(company "pull-up.dev")
+	)
+	(lib_symbols)
+	(sheet
+		(at 48.26 68.58)
+		(size 36.195 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 180 255 192 1.0000)
+		)
+		(uuid "0ab82e09-61b1-433a-bc22-62c7549b6c9e")
+		(property "Sheetname" "USB + Power Supply"
+			(at 48.26 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_power_supply.kicad_sch"
+			(at 48.26 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tuto-kicad-temp-logger"
+				(path "/46f6f3f4-3d30-4d83-91be-742ee6806614"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 68.58)
+		(size 38.735 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 180 255 192 1.0000)
+		)
+		(uuid "c01c0ed9-a3b1-45e9-a6fb-363d64472082")
+		(property "Sheetname" "MCU"
+			(at 107.95 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 107.95 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tuto-kicad-temp-logger"
+				(path "/46f6f3f4-3d30-4d83-91be-742ee6806614"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 159.385 68.58)
+		(size 38.1 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 180 255 192 1.0000)
+		)
+		(uuid "dab7cd41-1874-4413-9892-b5d7fb28604f")
+		(property "Sheetname" "SD + Sensor"
+			(at 159.385 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sd_sensor.kicad_sch"
+			(at 159.385 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tuto-kicad-temp-logger"
+				(path "/46f6f3f4-3d30-4d83-91be-742ee6806614"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

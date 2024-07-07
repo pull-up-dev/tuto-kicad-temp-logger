@@ -1,0 +1,10 @@
+fp-info-cache
+
+~tuto-kicad-temp-logger.kicad_sch.lck
+~tuto-kicad-temp-logger.kicad_pcb.lck
+
+tuto-kicad-temp-logger-backups
+tuto-kicad-temp-logger.kicad_prl
+
+output/
+production/

@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3590a951-110a-4251-8c3b-8ed5af5c7d54")
+	(paper "A4")
+	(title_block
+		(title "${project_name} - USB + Power Supply")
+		(date "2024-07-07")
+		(rev "v${pcb_version_major}.${pcb_version_minor}")
+		(company "pull-up.dev")
+	)
+	(lib_symbols)
+)
