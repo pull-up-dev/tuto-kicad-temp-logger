@@ -2296,7 +2296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 69.85 160.02 0)
 			(effects
 				(font
@@ -2627,7 +2627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 49.2252 60.96 0)
 			(effects
 				(font
@@ -2895,7 +2895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 52.832 137.16 90)
 			(effects
 				(font
@@ -2965,7 +2965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 69.85 157.48 0)
 			(effects
 				(font
@@ -3098,7 +3098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 69.85 152.4 0)
 			(effects
 				(font
@@ -3165,7 +3165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 69.85 154.94 0)
 			(effects
 				(font
@@ -3380,7 +3380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 202.692 59.69 90)
 			(effects
 				(font
@@ -3516,7 +3516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 69.85 149.86 0)
 			(effects
 				(font
@@ -3583,7 +3583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 205.4352 73.66 0)
 			(effects
 				(font
@@ -3653,7 +3653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 61.722 137.16 90)
 			(effects
 				(font
@@ -3780,7 +3780,7 @@
 			)
 		)
 		(property "Value" "SHOU HAN TF-CARD H1.8"
-			(at 84.836 104.394 0)
+			(at 84.836 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
