@@ -2102,6 +2102,7 @@
 	)
 	(label "I2C.SCL"
 		(at 191.77 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2112,6 +2113,7 @@
 	)
 	(label "SD.MISO"
 		(at 43.18 152.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2122,6 +2124,7 @@
 	)
 	(label "SD.MOSI"
 		(at 43.18 147.32 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2132,6 +2135,7 @@
 	)
 	(label "SD.CD"
 		(at 49.53 92.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2142,6 +2146,7 @@
 	)
 	(label "SD.CS"
 		(at 43.18 144.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2152,6 +2157,7 @@
 	)
 	(label "SD.MOSI"
 		(at 49.53 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2162,6 +2168,7 @@
 	)
 	(label "SD.CD"
 		(at 43.18 154.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2172,6 +2179,7 @@
 	)
 	(label "SD.MISO"
 		(at 49.53 87.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2182,6 +2190,7 @@
 	)
 	(label "I2C.SDA"
 		(at 191.77 82.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2192,6 +2201,7 @@
 	)
 	(label "SD.SCK"
 		(at 49.53 82.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2202,6 +2212,7 @@
 	)
 	(label "SD.CS"
 		(at 49.53 74.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2212,6 +2223,7 @@
 	)
 	(label "SD.SCK"
 		(at 43.18 149.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

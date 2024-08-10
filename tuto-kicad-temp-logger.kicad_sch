@@ -11,9 +11,59 @@
 		(company "pull-up.dev")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 85.09 87.63) (xy 107.95 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2413a24c-57ab-41d8-a495-bc5654be8310")
+	)
+	(bus
+		(pts
+			(xy 147.32 92.71) (xy 170.18 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a9fa28-e646-4fcd-8e06-31fdd59ad248")
+	)
+	(bus
+		(pts
+			(xy 147.32 85.09) (xy 170.18 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c419ccd4-3795-41c5-8986-b1ba998931c5")
+	)
+	(bus
+		(pts
+			(xy 85.09 77.47) (xy 107.95 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9185bef-296f-44ca-bcd8-182ac02aee75")
+	)
+	(wire
+		(pts
+			(xy 85.09 83.82) (xy 107.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb746af5-4c36-41f2-8c5d-fcfe3d2a3519")
+	)
 	(sheet
 		(at 48.26 68.58)
-		(size 36.195 44.45)
+		(size 36.83 44.45)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -41,6 +91,36 @@
 				(justify left top)
 			)
 		)
+		(pin "{UART}" bidirectional
+			(at 85.09 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ae70cb8d-9d96-4f80-aedf-3ad63f5dfd32")
+		)
+		(pin "DTR" output
+			(at 85.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "202280db-c2df-4868-9224-2d565cb489f6")
+		)
+		(pin "RTS" output
+			(at 85.09 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cb4635c9-3fa6-4c26-a874-72e64a43295c")
+		)
 		(instances
 			(project "tuto-kicad-temp-logger"
 				(path "/46f6f3f4-3d30-4d83-91be-742ee6806614"
@@ -51,7 +131,7 @@
 	)
 	(sheet
 		(at 107.95 68.58)
-		(size 38.735 44.45)
+		(size 39.37 44.45)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -79,6 +159,56 @@
 				(justify left top)
 			)
 		)
+		(pin "RTS" input
+			(at 107.95 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e2c874b8-9c82-4456-92b0-ba2881eb8b2b")
+		)
+		(pin "DTR" input
+			(at 107.95 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d0897592-348b-42dd-ad71-015e36df5322")
+		)
+		(pin "{SD}" bidirectional
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2bdc8588-f1e0-48f1-9542-3ccf941693e9")
+		)
+		(pin "{UART}" bidirectional
+			(at 107.95 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2a011ac8-1be6-4879-beed-e5f4be9790b0")
+		)
+		(pin "{I2C}" bidirectional
+			(at 147.32 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "88720b7e-bfa2-464e-a3ad-adf2066630ff")
+		)
 		(instances
 			(project "tuto-kicad-temp-logger"
 				(path "/46f6f3f4-3d30-4d83-91be-742ee6806614"
@@ -88,8 +218,8 @@
 		)
 	)
 	(sheet
-		(at 159.385 68.58)
-		(size 38.1 44.45)
+		(at 170.18 68.58)
+		(size 38.735 44.45)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -100,7 +230,7 @@
 		)
 		(uuid "dab7cd41-1874-4413-9892-b5d7fb28604f")
 		(property "Sheetname" "SD + Sensor"
-			(at 159.385 67.8684 0)
+			(at 170.18 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109,13 +239,33 @@
 			)
 		)
 		(property "Sheetfile" "sd_sensor.kicad_sch"
-			(at 159.385 113.6146 0)
+			(at 170.18 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "{SD}" bidirectional
+			(at 170.18 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "faf90d43-485a-4454-9bf0-70b7fad0606f")
+		)
+		(pin "{I2C}" bidirectional
+			(at 170.18 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "934e499d-d565-4ff1-9536-e0f0e3338d96")
 		)
 		(instances
 			(project "tuto-kicad-temp-logger"
