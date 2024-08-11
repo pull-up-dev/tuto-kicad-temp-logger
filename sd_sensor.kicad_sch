@@ -1435,10 +1435,22 @@
 		(uuid "6337faeb-52cb-4cef-a877-b8c102b9325c")
 	)
 	(junction
+		(at 190.5 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98404192-c050-4429-b44a-ad79023e6f99")
+	)
+	(junction
 		(at 204.47 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9ef170a-58e2-4b53-9b3c-ad5c271e4cf9")
+	)
+	(junction
+		(at 190.5 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc6f80ca-4a90-4f6e-8530-ae896183dd05")
 	)
 	(no_connect
 		(at 224.79 82.55)
@@ -1722,7 +1734,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 82.55) (xy 204.47 82.55)
+			(xy 189.23 82.55) (xy 190.5 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1742,7 +1754,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 85.09) (xy 204.47 85.09)
+			(xy 189.23 85.09) (xy 190.5 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1932,6 +1944,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 82.55) (xy 204.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd594652-0fa1-4cdd-a8e6-69c88047d058")
+	)
+	(wire
+		(pts
 			(xy 74.93 105.41) (xy 77.47 105.41)
 		)
 		(stroke
@@ -1989,6 +2011,16 @@
 			(type default)
 		)
 		(uuid "d5bcf674-b095-4590-8642-be7542947779")
+	)
+	(wire
+		(pts
+			(xy 190.5 85.09) (xy 204.47 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dadaeb28-47ce-4598-a2d2-49e2e9ecdebe")
 	)
 	(wire
 		(pts
@@ -3423,6 +3455,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 190.5 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4176049-b942-4523-809b-78c9f8202e3b")
+		(property "Reference" "TP407"
+			(at 197.358 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 187.96 87.1221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bc48c16-2c71-4c55-b7ac-7eeb9824f024")
+		)
+		(instances
+			(project "tuto-kicad-temp-logger"
+				(path "/46f6f3f4-3d30-4d83-91be-742ee6806614/dab7cd41-1874-4413-9892-b5d7fb28604f"
+					(reference "TP407")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 54.61 133.35 0)
 		(unit 1)
@@ -3756,6 +3855,73 @@
 			(project "tuto-kicad-temp-logger"
 				(path "/46f6f3f4-3d30-4d83-91be-742ee6806614/dab7cd41-1874-4413-9892-b5d7fb28604f"
 					(reference "#PWR0404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 190.5 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fca493c4-bb90-4cbb-b385-e3d66b14cb1f")
+		(property "Reference" "TP406"
+			(at 190.754 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 193.04 80.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 195.58 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 190.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18c229cb-de98-41f4-ad00-398fd918f69b")
+		)
+		(instances
+			(project "tuto-kicad-temp-logger"
+				(path "/46f6f3f4-3d30-4d83-91be-742ee6806614/dab7cd41-1874-4413-9892-b5d7fb28604f"
+					(reference "TP406")
 					(unit 1)
 				)
 			)
