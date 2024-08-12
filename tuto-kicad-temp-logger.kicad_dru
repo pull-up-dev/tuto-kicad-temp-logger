@@ -1,0 +1,21 @@
+(version 1)
+
+(rule "USB-C: largeur anneau"
+	(constraint annular_width (min 0.1mm))
+	(condition "A.memberOfFootprint('tuto-kicad-temp-logger:HOOYA_USB_306F')"))
+
+(rule "USB-C: distance Cu netclass Power"
+	(constraint clearance (min 0.1mm))
+	(condition "A.memberOfFootprint('tuto-kicad-temp-logger:HOOYA_USB_306F') && B.NetClass == 'Power'"))
+
+(rule "USB-C: trou à Cu (2x THT)"
+	(constraint hole_clearance (min 0.26mm))
+	(condition "A.memberOfFootprint('tuto-kicad-temp-logger:HOOYA_USB_306F') && A.Pad_Type == 'Through-hole' && B.memberOfFootprint('tuto-kicad-temp-logger:HOOYA_USB_306F') && B.Pad_Type == 'Through-hole'"))
+
+(rule "USB-C: trou à Cu (THT vs Mech)"
+	(constraint hole_clearance (min 0.15mm))
+	(condition "A.memberOfFootprint('tuto-kicad-temp-logger:HOOYA_USB_306F') && A.Pad_Type == 'Through-hole' && B.memberOfFootprint('tuto-kicad-temp-logger:HOOYA_USB_306F') && B.Pad_Type == 'NPTH, mechanical'"))
+
+(rule "USB-C: trou mech à bord"
+	(constraint edge_clearance (min 0.15mm))
+	(condition "A.memberOfFootprint('tuto-kicad-temp-logger:HOOYA_USB_306F') && A.Pad_Type == 'Through-hole' && B.memberOfFootprint('tuto-kicad-temp-logger:HOOYA_USB_306F') && B.Pad_Type == 'NPTH, mechanical'"))
