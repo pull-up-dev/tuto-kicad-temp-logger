@@ -1,5 +1,13 @@
 (version 1)
 
+(rule "Vias: largueur anneau"
+	(constraint annular_width (min 0.075mm))
+	(condition "A.Type == 'Via'"))
+
+(rule "Vias: diamètre minimal"
+	(constraint hole_size (min 0.2mm))
+	(condition "A.Type == 'Via'"))
+
 (rule "USB-C: largeur anneau"
 	(constraint annular_width (min 0.1mm))
 	(condition "A.memberOfFootprint('tuto-kicad-temp-logger:HOOYA_USB_306F')"))
